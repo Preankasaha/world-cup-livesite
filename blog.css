@@ -370,13 +370,16 @@ hr {
         margin-bottom: 18px;
     }
 
+    .match-link {
+        width: 231px;
+    }
 
     .group-link {
         width: 231px;
     }
 
     #blog-link {
-        width: 218px;
+        width: 231px;
     }
 
     .blogs {
@@ -472,9 +475,11 @@ hr {
     }
 
     .sidebar-link {
-        width: 250px;
+        width: 350px;
+        padding: 5px; 
         margin-right: 35px;
     }
+
 
     .blogs {
         grid-template-columns: repeat(2, 1fr);
