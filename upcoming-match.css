@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
+/* header starts here */
 header {
     height: 612px;
     background-color: #161616;
@@ -251,11 +251,11 @@ hr {
 }
 
 /* footer part ends here */
-/* footer part ends here */
+
 
 /* media queries */
 
-/* media queries */
+
 
 @media only screen and (max-width: 767px) {
     header {
@@ -522,9 +522,8 @@ hr {
         }
     }
     
-}
 
-    /* @media only screen and (min-width: 992px) and (max-width: 1311px) { */
+
     @media only screen and (min-width: 992px) {
         .view-button {
             display: none;

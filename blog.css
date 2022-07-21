@@ -9,7 +9,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
+/* header starts here */
 header {
     height: 612px;
     background-color: #161616;
@@ -218,7 +218,7 @@ header {
     margin-left: 23em;
 }
 
-/* Transfar live ends from here  */
+/* Transfar live ends here  */
 
 /* footer starts here */
 
@@ -255,8 +255,6 @@ hr {
 .footer-link a:hover {
     text-decoration: underline;
 }
-
-
 
 /* social media link included  */
 
