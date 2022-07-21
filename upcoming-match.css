@@ -225,6 +225,17 @@ header {
     color: gray;
 }
 
+.view-button {
+    width: 168px;
+    height: 47px;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5em;
+    margin-left: 23em;
+}
+
 /* upcming live page ends here */
 /* footer starts here */
 

@@ -496,9 +496,9 @@ hr {
         display: none;
     }
 
-    .view-button {
+     {
         visibility: visible;
-    }
+    }.view-button
 
     .footer-part {
 
