@@ -39,6 +39,36 @@ header {
     font-size: 3em;
 }
 
+#animate {
+    animation-name: animation-task;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-task {
+    0% {
+        background-color: rgb(255, 42, 42);
+    }
+
+    25% {
+        background-color: rgb(255, 255, 69);
+    }
+
+    50% {
+        background-color: rgb(80, 80, 255);
+    }
+
+    75% {
+        background-color: rgb(66, 254, 66);
+    }
+
+    100% {
+        background-color: rgb(255, 42, 42);
+    }
+}
+
+
+
 .banner-details {
     margin-bottom: 2em;
 }
@@ -172,6 +202,7 @@ header {
     padding: 1em;
     border: 1px solid rgb(219, 219, 219);
     border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
 }
 
 .match-img {

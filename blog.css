@@ -141,6 +141,7 @@ header {
     align-items: center;
     margin-top: 0.5em;
 
+
 }
 
 .sidebar-link {
@@ -197,6 +198,7 @@ header {
     height: 362px;
     border: 1px solid gray;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
 }
 
 .blog-image img {
