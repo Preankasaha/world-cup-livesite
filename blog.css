@@ -277,7 +277,7 @@ hr {
 
 /* media queries */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 688px) {
     header {
         margin-bottom: 50px;
         padding-bottom: 72px;
@@ -478,7 +478,7 @@ hr {
     }
 }
 
-/* @media only screen and (min-width: 992px) and (max-width: 1311px) { */
+
 @media only screen and (min-width: 992px) {
     .view-button {
         display: none;

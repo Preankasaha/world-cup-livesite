@@ -252,10 +252,7 @@ hr {
 
 /* footer part ends here */
 
-
 /* media queries */
-
-
 
 @media only screen and (max-width: 767px) {
     header {
@@ -329,7 +326,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 688px) {
     header {
         margin-bottom: 50px;
         padding-bottom: 72px;
@@ -523,8 +520,6 @@ hr {
         margin: 0 10px 0 10px;
     }
 }
-
-
 
 @media only screen and (min-width: 992px) {
     .view-button {
