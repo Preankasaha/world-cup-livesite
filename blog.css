@@ -39,6 +39,35 @@ header {
     font-size: 3em;
 }
 
+#animate {
+    animation-name: animation-task;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-task {
+    0% {
+        background-color: rgb(255, 42, 42);
+    }
+
+    25% {
+        background-color: rgb(255, 255, 69);
+    }
+
+    50% {
+        background-color: rgb(80, 80, 255);
+    }
+
+    75% {
+        background-color: rgb(66, 254, 66);
+    }
+
+    100% {
+        background-color: rgb(255, 42, 42);
+    }
+}
+
+
 .banner-details {
     margin-bottom: 2em;
 }
@@ -130,13 +159,16 @@ header {
     text-decoration: none;
     color: #161616;
 }
-#match-link:hover{
+
+#match-link:hover {
     background-color: #fa1818;
-    
+
 }
-#group-link:hover{
+
+#group-link:hover {
     background-color: #fa1818;
 }
+
 #blog-link {
     background-color: #DD0000;
 }
@@ -336,7 +368,7 @@ hr {
         margin-bottom: 18px;
     }
 
-    
+
     .group-link {
         width: 231px;
     }
@@ -397,6 +429,7 @@ hr {
         text-align: left;
         padding-left: 38px;
     }
+
     .banner-title {
         font-size: 55px;
         margin-top: -85px;
@@ -451,9 +484,11 @@ hr {
     .blog {
         margin: 0 0 35px 0;
     }
-#hidden-blog{
-    display: none;
-}
+
+    #hidden-blog {
+        display: none;
+    }
+
     .view-button {
         visibility: visible;
     }
